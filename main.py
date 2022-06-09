@@ -19,16 +19,16 @@ class Student:
     def add_track(self, tracks):
         self.tracks = tracks
 
-    def get_score(self, score=30):
+    def get_score(self, score=30.50):
         self.score = score
 
 
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
 # Expected methods
-Bob.change_name("Peter")
-Bob.change_age(34)
-Bob.add_track("UI/UX")
+Bob.change_name("Akinjide")
+Bob.change_age(23)
+Bob.add_track("Fullstack")
 Bob.get_score()
 
 
